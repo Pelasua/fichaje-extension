@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Fichaje Frappe HR",
+  "version": "0.1.0",
+  "description": "Fichar entrada y salida en Frappe HR y ver el progreso semanal.",
+  "action": { "default_popup": "popup.html", "default_title": "Fichaje" },
+  "permissions": ["storage", "geolocation"],
+  "optional_host_permissions": ["https://*/*", "http://*/*"]
+}
